@@ -116,6 +116,11 @@
   color: #4d5ae5;
 }
 .form-modal-comment {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 8px 16px;
@@ -134,7 +139,7 @@
   color: rgba(46, 47, 66, 0.4);
 }
 .form-modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .form-modal-policy {
   margin-bottom: 24px;
@@ -157,7 +162,7 @@
   border: 0.88px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
-  margin-top: 8px;
+  margin: 8px 8px 0 0;
   cursor: pointer;
   transition: 250ms ease-in-out;
   transition-property: background-color, border-color;
@@ -176,7 +181,7 @@
   opacity: 1;
 }
 .privacy-policy {
-  line-height: 1.33;
+  line-height: 1.17;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
@@ -184,7 +189,13 @@
   font-size: 12px;
   letter-spacing: 0.04em;
 }
+.form-modal-btn {
+  display: flex;
+  justify-content: center;
+}
 .btn-modal {
+  border: none;
+
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
