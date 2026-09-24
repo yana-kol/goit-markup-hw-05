@@ -39,7 +39,7 @@
 .footer-social .link:hover,
 .footer-social .link:focus {
   color: #f4f4fd;
-  background: #31d0aa;
+  background-color: #31d0aa;
 }
 .social-title {
   padding-bottom: 16px;
@@ -61,6 +61,11 @@
 }
 .label-subscribe {
   color: #fff;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   background-color: transparent;
   outline: transparent;
   border: 1px solid #fff;
