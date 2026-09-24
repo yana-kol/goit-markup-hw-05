@@ -33,7 +33,7 @@
   background: #fcfcfc;
 }
 .btn-close {
-  position: fixed;
+  position: absolute;
   top: 24px;
   right: 24px;
   display: flex;
@@ -138,6 +138,9 @@
 .form-modal-comment::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
+.form-modal-field.comment {
+  margin-bottom: 16px;
+}
 .form-modal-field {
   margin-bottom: 8px;
 }
@@ -162,7 +165,7 @@
   border: 0.88px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
-  margin: 8px 8px 0 0;
+  margin-right: 8px;
   cursor: pointer;
   transition: 250ms ease-in-out;
   transition-property: background-color, border-color;
