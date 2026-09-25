@@ -54,11 +54,7 @@
   background: #404bbf;
   color: #fff;
 }
-.close {
-}
-.close:hover,
-.close:focus {
-}
+
 .title-modal {
   font-weight: 500;
   line-height: 1.5;
