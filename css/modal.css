@@ -183,7 +183,7 @@
   .form-modal-checkboox-icon {
   opacity: 1;
 }
-.sr-only {
+/*.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -191,7 +191,7 @@
   margin: -1px;
   overflow: hidden;
   clip-path: inset(50%);
-}
+}*/
 .privacy-policy {
   line-height: 1.17;
   text-decoration: underline;
