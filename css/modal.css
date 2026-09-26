@@ -48,6 +48,7 @@
   background: #e7e9fc;
   transition: 250ms ease-in-out;
   transition-property: background-color, color;
+  color: #2e2f42;
 }
 .btn-close:hover,
 .btn-close:focus {
@@ -180,17 +181,8 @@
   .form-modal-checkboox-icon {
   opacity: 1;
 }
-.sr-only {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+.checkbox.sr-only {
   border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  margin: -1px;
 }
 
 .privacy-policy {
